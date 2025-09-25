@@ -3,56 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="estilo.css">
   <title>PSG — Camino a la Champions League</title>
-  <style>
-    :root{--bg:#0b1220;--card:#0f1724;--accent:#1fb6ff;--muted:#97a0b8;--gold:#f5c242}
-    *{box-sizing:border-box}
-    body{margin:0;font-family:Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;color:#e6eef8;background:linear-gradient(180deg,#031026 0%, #071022 60%);}
-    .container{max-width:1100px;margin:40px auto;padding:20px}
-    header{display:flex;align-items:center;gap:20px}
-    .logo{width:86px;height:86px;border-radius:12px;background:linear-gradient(135deg,#021 0%, #013 100%);display:flex;align-items:center;justify-content:center;color:var(--accent);font-weight:700;font-size:28px}
-    h1{margin:0;font-size:28px}
-    p.lead{color:var(--muted);margin:6px 0 20px}
-
-    .grid{display:grid;grid-template-columns:1fr 360px;gap:24px}
-
-    /* Card */
-    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.00));border:1px solid rgba(255,255,255,0.04);padding:18px;border-radius:14px}
-    .section-title{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
-    .muted{color:var(--muted);font-size:14px}
-
-    /* Timeline */
-    .timeline{display:flex;flex-direction:column;gap:12px}
-    .round{display:flex;gap:12px;align-items:center}
-    .round .badge{min-width:84px;padding:8px 10px;border-radius:10px;background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.03);text-align:center}
-    .round .body{flex:1}
-    .match{display:flex;justify-content:space-between;align-items:center;padding:10px;border-radius:10px;background:linear-gradient(180deg, rgba(255,255,255,0.01), transparent)}
-    .match .teams{display:flex;gap:10px;align-items:center}
-    .team{display:flex;gap:8px;align-items:center}
-    .team img{width:28px;height:28px;border-radius:6px}
-    .score{font-weight:700}
-    .win{color:var(--accent)}
-
-    /* Right column */
-    .stats{display:flex;flex-direction:column;gap:12px}
-    .player{display:flex;gap:12px;align-items:center}
-    .player img{width:48px;height:48px;border-radius:8px}
-    .progress{height:10px;background:rgba(255,255,255,0.04);border-radius:999px;overflow:hidden}
-    .progress > i{display:block;height:100%;background:linear-gradient(90deg,var(--accent),var(--gold));}
-
-    /* Footer */
-    footer{margin-top:28px;color:var(--muted);text-align:center;font-size:13px}
-
-    /* Responsive */
-    @media (max-width:980px){.grid{grid-template-columns:1fr}.container{margin:20px}}
-
-    /* Buttons */
-    .btn{background:transparent;border:1px solid rgba(255,255,255,0.06);padding:8px 12px;border-radius:10px;color:#dfefff;cursor:pointer}
-    .btn.primary{background:linear-gradient(90deg,var(--accent),#2ad1ff);border:none;color:#001}
-
-    /* Small helpers */
-    .tag{display:inline-block;padding:6px 8px;border-radius:999px;font-size:13px;background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.03)}
-  </style>
 </head>
 <body>
   <div class="container">
@@ -90,9 +42,9 @@
                 <div class="body card" style="padding:12px">
                   <div class="match">
                     <div class="teams">
-                      <div class="team"><img src="https://upload.wikimedia.org/wikipedia/en/a/a7/Paris_Saint-Germain_F.C..svg" alt="PSG"><div>PSG</div></div>
+                      <div class="team"><img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/160.png" alt="PSG"><div>PSG</div></div>
                       <div class="muted">vs</div>
-                      <div class="team"><img src="https://upload.wikimedia.org/wikipedia/en/4/47/Manchester_City_FC_badge.svg" alt="ManCity"><div>Man City</div></div>
+                      <div class="team"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/1200px-Manchester_City_FC_badge.svg.png" alt="ManCity"><div>Man City</div></div>
                     </div>
                     <div class="score muted">1 - 2</div>
                   </div>
@@ -105,9 +57,9 @@
                 <div class="body card" style="padding:12px">
                   <div class="match">
                     <div class="teams">
-                      <div class="team"><img src="https://upload.wikimedia.org/wikipedia/en/a/a7/Paris_Saint-Germain_F.C..svg" alt="PSG"><div>PSG</div></div>
+                      <div class="team"><img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/160.png" alt="PSG"><div>PSG</div></div>
                       <div class="muted">vs</div>
-                      <div class="team"><img src="https://upload.wikimedia.org/wikipedia/en/5/53/FC_Barcelona_%28crest%29.svg" alt="Barca"><div>Barcelona</div></div>
+                      <div class="team"><img src="https://a.espncdn.com/i/teamlogos/soccer/500/83.png" alt="Barca"><div>Barcelona</div></div>
                     </div>
                     <div class="score win">3 - 1</div>
                   </div>
@@ -120,9 +72,9 @@
                 <div class="body card" style="padding:12px">
                   <div class="match">
                     <div class="teams">
-                      <div class="team"><img src="https://upload.wikimedia.org/wikipedia/en/a/a7/Paris_Saint-Germain_F.C..svg" alt="PSG"><div>PSG</div></div>
+                      <div class="team"><img src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/160.png" alt="PSG"><div>PSG</div></div>
                       <div class="muted">vs</div>
-                      <div class="team"><img src="https://upload.wikimedia.org/wikipedia/en/c/c3/Real_Madrid_CF.svg" alt="RMA"><div>Real Madrid</div></div>
+                      <div class="team"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4Ht0pHVMVm7DhPlSP4cyLhyD0j01iblRLyA&s" alt="RMA"><div>Real Madrid</div></div>
                     </div>
                     <div class="score">2 - 2 (4-3 pen)</div>
                   </div>
